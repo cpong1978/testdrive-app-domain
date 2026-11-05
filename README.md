@@ -17,3 +17,18 @@ The website does not host Drive files or OAuth credentials. Keep all application
 Publish from the `main` branch and repository root using GitHub Pages. `.nojekyll` serves these files directly. Relative links support a GitHub Pages project URL.
 
 Review the policies whenever the application behavior changes. A multi-user file gateway is not part of the current setup; update the disclosures before launching it. Website publication does not itself publish or verify the Google OAuth application.
+
+## Google OAuth Branding URLs
+
+Intended repository owner: `cpong1978`.
+
+After GitHub Pages deployment has completed, use these values:
+
+| Google Auth Platform field | Value |
+| --- | --- |
+| Application home page | https://cpong1978.github.io/testdrive-app-domain/ |
+| Application privacy policy link | https://cpong1978.github.io/testdrive-app-domain/privacy.html |
+| Application terms of service link | https://cpong1978.github.io/testdrive-app-domain/terms.html |
+| Authorized domains | cpong1978.github.io |
+
+Save the Branding configuration, then use Audience to publish the OAuth application. GitHub Pages deployment does not change Google's publishing or verification status. If Google requests site ownership verification, complete that separately through Google Search Console.
